@@ -50,6 +50,25 @@
           "hash": null,
           "search": null,
           "query": null,
+          "pathname": "/startups/transition-collective/",
+          "path": "/startups/transition-collective/",
+          "href": "https://www.fabrique.social.gouv.fr/startups/transition-collective/"
+        },
+        "link": "https://www.fabrique.social.gouv.fr/startups/transition-collective/",
+        "line": "https://www.fabrique.social.gouv.fr/startups/transition-collective/",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "www.fabrique.social.gouv.fr",
+          "port": null,
+          "hostname": "www.fabrique.social.gouv.fr",
+          "hash": null,
+          "search": null,
+          "query": null,
           "pathname": "/startups/enfants-du-spectacle/",
           "path": "/startups/enfants-du-spectacle/",
           "href": "https://www.fabrique.social.gouv.fr/startups/enfants-du-spectacle/"
@@ -75,25 +94,6 @@
         },
         "link": "https://www.fabrique.social.gouv.fr/startups/Domifa/",
         "line": "https://www.fabrique.social.gouv.fr/startups/Domifa/",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "www.fabrique.social.gouv.fr",
-          "port": null,
-          "hostname": "www.fabrique.social.gouv.fr",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/startups/transition-collective/",
-          "path": "/startups/transition-collective/",
-          "href": "https://www.fabrique.social.gouv.fr/startups/transition-collective/"
-        },
-        "link": "https://www.fabrique.social.gouv.fr/startups/transition-collective/",
-        "line": "https://www.fabrique.social.gouv.fr/startups/transition-collective/",
         "broken": true
       },
       {
@@ -164,7 +164,7 @@
     "http": {
       "url": "https://www.fabrique.social.gouv.fr",
       "algorithm_version": 3,
-      "end_time": "Sun, 31 Mar 2024 00:26:04 GMT",
+      "end_time": "Sun, 07 Apr 2024 00:25:42 GMT",
       "grade": "A+",
       "hidden": false,
       "likelihood_indicator": "LOW",
@@ -173,9 +173,9 @@
         "Content-Encoding": "gzip",
         "Content-Security-Policy": "default-src 'none'; connect-src 'self' https://*.gouv.fr; font-src 'self'; img-src 'self'; prefetch-src 'self' https://*.gouv.fr; script-src 'self' https://*.gouv.fr; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'",
         "Content-Type": "text/html; charset=utf-8",
-        "Date": "Sun, 31 Mar 2024 00:26:02 GMT",
-        "ETag": "W/\"65dcad32-7385\"",
-        "Last-Modified": "Mon, 26 Feb 2024 15:24:34 GMT",
+        "Date": "Sun, 07 Apr 2024 00:25:40 GMT",
+        "ETag": "W/\"660d64ce-7385\"",
+        "Last-Modified": "Wed, 03 Apr 2024 14:16:46 GMT",
         "Strict-Transport-Security": "max-age=15724800; includeSubDomains",
         "Transfer-Encoding": "chunked",
         "Vary": "Accept-Encoding",
@@ -183,9 +183,9 @@
         "X-Frame-Options": "deny",
         "X-XSS-Protection": "1; mode=block"
       },
-      "scan_id": 49490480,
+      "scan_id": 49759458,
       "score": 100,
-      "start_time": "Sun, 31 Mar 2024 00:26:01 GMT",
+      "start_time": "Sun, 07 Apr 2024 00:25:38 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 0,
@@ -223,8 +223,8 @@
                 "'self'"
               ],
               "style-src": [
-                "'unsafe-inline'",
-                "'self'"
+                "'self'",
+                "'unsafe-inline'"
               ]
             },
             "http": true,
@@ -590,7 +590,7 @@
         "ip": "www.fabrique.social.gouv.fr/57.128.91.43",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -730,7 +730,7 @@
         "ip": "www.fabrique.social.gouv.fr/57.128.91.43",
         "port": "443",
         "severity": "OK",
-        "finding": "57 >= 30 days"
+        "finding": "50 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -891,7 +891,7 @@
         "ip": "www.fabrique.social.gouv.fr/57.128.91.43",
         "port": "443",
         "severity": "INFO",
-        "finding": "1711847203"
+        "finding": "1712452021"
       },
       {
         "id": "HSTS_time",
@@ -1486,7 +1486,7 @@
           "value": "1",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1711848705,
+          "expires": 1712453521,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -1498,10 +1498,10 @@
         },
         {
           "name": "_pk_id.2.6321",
-          "value": "ba49749ccf708138.1711846906.",
+          "value": "c7ab05a35980c699.1712451722.",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1745802106,
+          "expires": 1746406922,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -1516,9 +1516,9 @@
         "content-encoding": "gzip",
         "content-security-policy": "default-src 'none'; connect-src 'self' https://*.gouv.fr; font-src 'self'; img-src 'self'; prefetch-src 'self' https://*.gouv.fr; script-src 'self' https://*.gouv.fr; frame-src 'self' https://*.gouv.fr; style-src 'self' 'unsafe-inline'",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 31 Mar 2024 01:01:43 GMT",
-        "etag": "W/\"65dcad32-7385\"",
-        "last-modified": "Mon, 26 Feb 2024 15:24:34 GMT",
+        "date": "Sun, 07 Apr 2024 01:01:59 GMT",
+        "etag": "W/\"660d64ce-7385\"",
+        "last-modified": "Wed, 03 Apr 2024 14:16:46 GMT",
         "strict-transport-security": "max-age=15724800; includeSubDomains",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
@@ -1821,7 +1821,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 31 Mar 2024 01:05:15",
+      "@generated": "Sun, 7 Apr 2024 01:05:33",
       "site": [
         {
           "@name": "https://www.fabrique.social.gouv.fr",
@@ -2461,7 +2461,7 @@
       {
         "requestedUrl": "https://www.fabrique.social.gouv.fr/",
         "finalUrl": "https://www.fabrique.social.gouv.fr/",
-        "fetchTime": "2024-03-31T01:05:30.303Z",
+        "fetchTime": "2024-04-07T01:05:49.062Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2524,53 +2524,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4833,
+            "numericValue": 4915,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1523,
-                  "firstMeaningfulPaint": 1841,
-                  "largestContentfulPaint": 3697,
-                  "interactive": 4833,
-                  "speedIndex": 3752,
-                  "totalBlockingTime": 166,
-                  "maxPotentialFID": 198,
+                  "firstContentfulPaint": 1783,
+                  "firstMeaningfulPaint": 2002,
+                  "largestContentfulPaint": 3883,
+                  "interactive": 4915,
+                  "speedIndex": 4301,
+                  "totalBlockingTime": 165,
+                  "maxPotentialFID": 203,
                   "cumulativeLayoutShift": 0.000828776741532922,
                   "cumulativeLayoutShiftMainFrame": 0.000828776741532922,
                   "totalCumulativeLayoutShift": 0.000828776741532922,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 468293231,
+                  "observedTimeOriginTs": 440217077,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 468293231,
-                  "observedFirstPaint": 862,
-                  "observedFirstPaintTs": 469155119,
-                  "observedFirstContentfulPaint": 862,
-                  "observedFirstContentfulPaintTs": 469155119,
-                  "observedFirstContentfulPaintAllFrames": 862,
-                  "observedFirstContentfulPaintAllFramesTs": 469155119,
-                  "observedFirstMeaningfulPaint": 1904,
-                  "observedFirstMeaningfulPaintTs": 470197035,
-                  "observedLargestContentfulPaint": 1765,
-                  "observedLargestContentfulPaintTs": 470058383,
-                  "observedLargestContentfulPaintAllFrames": 1765,
-                  "observedLargestContentfulPaintAllFramesTs": 470058383,
-                  "observedTraceEnd": 4838,
-                  "observedTraceEndTs": 473131315,
-                  "observedLoad": 2530,
-                  "observedLoadTs": 470822820,
-                  "observedDomContentLoaded": 1813,
-                  "observedDomContentLoadedTs": 470105891,
+                  "observedNavigationStartTs": 440217077,
+                  "observedFirstPaint": 869,
+                  "observedFirstPaintTs": 441085939,
+                  "observedFirstContentfulPaint": 869,
+                  "observedFirstContentfulPaintTs": 441085939,
+                  "observedFirstContentfulPaintAllFrames": 869,
+                  "observedFirstContentfulPaintAllFramesTs": 441085939,
+                  "observedFirstMeaningfulPaint": 1749,
+                  "observedFirstMeaningfulPaintTs": 441965674,
+                  "observedLargestContentfulPaint": 1725,
+                  "observedLargestContentfulPaintTs": 441941885,
+                  "observedLargestContentfulPaintAllFrames": 1725,
+                  "observedLargestContentfulPaintAllFramesTs": 441941885,
+                  "observedTraceEnd": 4831,
+                  "observedTraceEndTs": 445048575,
+                  "observedLoad": 2523,
+                  "observedLoadTs": 442739967,
+                  "observedDomContentLoaded": 1790,
+                  "observedDomContentLoadedTs": 442006935,
                   "observedCumulativeLayoutShift": 0.000828776741532922,
                   "observedCumulativeLayoutShiftMainFrame": 0.000828776741532922,
                   "observedTotalCumulativeLayoutShift": 0.000828776741532922,
-                  "observedFirstVisualChange": 854,
-                  "observedFirstVisualChangeTs": 469147231,
-                  "observedLastVisualChange": 3837,
-                  "observedLastVisualChangeTs": 472130231,
-                  "observedSpeedIndex": 1610,
-                  "observedSpeedIndexTs": 469903536
+                  "observedFirstVisualChange": 848,
+                  "observedFirstVisualChangeTs": 441065077,
+                  "observedLastVisualChange": 3815,
+                  "observedLastVisualChangeTs": 444032077,
+                  "observedSpeedIndex": 1552,
+                  "observedSpeedIndexTs": 441768829
                 },
                 {
                   "lcpInvalidated": false
@@ -2592,19 +2592,19 @@
                   "numScripts": 14,
                   "numStylesheets": 1,
                   "numFonts": 3,
-                  "numTasks": 990,
-                  "numTasksOver10ms": 6,
+                  "numTasks": 914,
+                  "numTasksOver10ms": 5,
                   "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 0,
+                  "numTasksOver50ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 146.784,
-                  "throughput": 42434654.8345851,
-                  "maxRtt": 152.02800000000002,
-                  "maxServerLatency": 447.17499999999995,
-                  "totalByteWeight": 7912806,
-                  "totalTaskTime": 430.8379999999995,
-                  "mainDocumentTransferSize": 8498
+                  "rtt": 149.442,
+                  "throughput": 51985457.60343184,
+                  "maxRtt": 150.292,
+                  "maxServerLatency": 583.265,
+                  "totalByteWeight": 7912713,
+                  "totalTaskTime": 446.36699999999956,
+                  "mainDocumentTransferSize": 8495
                 }
               ]
             }
@@ -2627,7 +2627,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.fabrique.social.gouv.fr",
-        "size": 7993.711,
+        "size": 7993.501,
         "nodes": 481,
         "requests": 62,
         "grade": "D",
@@ -2635,7 +2635,7 @@
         "ges": 1.98,
         "water": 2.97,
         "ecoindex_version": "5.4.2",
-        "date": "2024-03-31 01:02:49.143272",
+        "date": "2024-04-07 01:03:06.642075",
         "page_type": null
       }
     ],
@@ -2718,25 +2718,6 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/startups/locatio.html",
-          "path": "/startups/locatio.html",
-          "href": "https://beta.gouv.fr/startups/locatio.html"
-        },
-        "link": "https://beta.gouv.fr/startups/locatio.html",
-        "line": "https://beta.gouv.fr/startups/locatio.html",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "beta.gouv.fr",
-          "port": null,
-          "hostname": "beta.gouv.fr",
-          "hash": null,
-          "search": null,
-          "query": null,
           "pathname": "/startups/mes.aides.html",
           "path": "/startups/mes.aides.html",
           "href": "https://beta.gouv.fr/startups/mes.aides.html"
@@ -2750,7 +2731,7 @@
     "http": {
       "url": "https://beta.gouv.fr",
       "algorithm_version": 3,
-      "end_time": "Sun, 31 Mar 2024 00:36:15 GMT",
+      "end_time": "Sun, 07 Apr 2024 00:37:36 GMT",
       "grade": "C",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2758,16 +2739,16 @@
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 31 Mar 2024 00:36:14 GMT",
-        "ETag": "W/\"6607ff85-9c24\"",
-        "Last-Modified": "Sat, 30 Mar 2024 12:03:17 GMT",
+        "Date": "Sun, 07 Apr 2024 00:37:35 GMT",
+        "ETag": "W/\"661030cf-9c90\"",
+        "Last-Modified": "Fri, 05 Apr 2024 17:11:43 GMT",
         "Strict-Transport-Security": "max-age=31536000",
         "Transfer-Encoding": "chunked",
-        "X-Request-ID": "8de287da-395d-40d1-801f-02c9490d2953"
+        "X-Request-ID": "b2d09b4b-2222-4b7b-896a-e2517ebcee36"
       },
-      "scan_id": 49490743,
+      "scan_id": 49759639,
       "score": 50,
-      "start_time": "Sun, 31 Mar 2024 00:36:12 GMT",
+      "start_time": "Sun, 07 Apr 2024 00:37:33 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 3,
@@ -3123,7 +3104,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "supported"
+        "finding": "not supported"
       },
       {
         "id": "sessionresumption_ID",
@@ -3270,7 +3251,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
-        "finding": "78 >= 30 days"
+        "finding": "71 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3424,14 +3405,14 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "1711847702"
+        "finding": "1712452720"
       },
       {
         "id": "HSTS_time",
@@ -4336,7 +4317,7 @@
         "ip": "beta.gouv.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
-        "finding": "78 >= 30 days"
+        "finding": "71 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -4497,7 +4478,7 @@
         "ip": "beta.gouv.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
-        "finding": "1711847759"
+        "finding": "1712452816"
       },
       {
         "id": "HSTS_time",
@@ -5060,7 +5041,7 @@
         "ip": "beta.gouv.fr/109.232.236.90",
         "port": "443",
         "severity": "INFO",
-        "finding": "116"
+        "finding": "196"
       }
     ],
     "thirdparties": {
@@ -5068,10 +5049,10 @@
       "cookies": [
         {
           "name": "_pk_id.1.968e",
-          "value": "1d8e191f79b65ac5.1711846894.",
+          "value": "523d92c1265678b5.1712451723.",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1745802094,
+          "expires": 1746406923,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -5086,7 +5067,7 @@
           "value": "1",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1711848694,
+          "expires": 1712453523,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -5101,7 +5082,7 @@
           "value": "1",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1711848694,
+          "expires": 1712453523,
           "size": 16,
           "httpOnly": false,
           "secure": false,
@@ -5113,10 +5094,10 @@
         },
         {
           "name": "_pk_id.21.968e",
-          "value": "0fd5a20880f8b31a.1711846894.",
+          "value": "f3b373b0e7fb51ad.1712451723.",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1745802094,
+          "expires": 1746406923,
           "size": 42,
           "httpOnly": false,
           "secure": false,
@@ -5130,23 +5111,17 @@
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 31 Mar 2024 01:01:33 GMT",
-        "etag": "W/\"6607ff85-9c24\"",
-        "last-modified": "Sat, 30 Mar 2024 12:03:17 GMT",
+        "date": "Sun, 07 Apr 2024 01:02:01 GMT",
+        "etag": "W/\"661030cf-9c90\"",
+        "last-modified": "Fri, 05 Apr 2024 17:11:43 GMT",
         "strict-transport-security": "max-age=31536000",
-        "x-request-id": "fcd1e046-de44-4282-9f7f-42e6d6a43893"
+        "x-request-id": "912d63ef-16f6-4efe-ac6e-2b6581cc3f75"
       },
       "endpoints": [
         {
           "hostname": "beta.gouv.fr",
           "ip": "5.104.101.30",
           "geoip": {
-            "city": {
-              "geoname_id": 2977356,
-              "names": {
-                "en": "Saint-Priest"
-              }
-            },
             "continent": {
               "code": "EU",
               "geoname_id": 6255148,
@@ -5177,13 +5152,10 @@
               }
             },
             "location": {
-              "accuracy_radius": 200,
-              "latitude": 45.7088,
-              "longitude": 4.9303,
+              "accuracy_radius": 500,
+              "latitude": 48.8582,
+              "longitude": 2.3387,
               "time_zone": "Europe/Paris"
-            },
-            "postal": {
-              "code": "69800"
             },
             "registered_country": {
               "geoname_id": 3017382,
@@ -5199,36 +5171,7 @@
                 "ru": "Франция",
                 "zh-CN": "法国"
               }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 11071625,
-                "iso_code": "ARA",
-                "names": {
-                  "de": "Auvergne-Rhône-Alpes",
-                  "en": "Auvergne-Rhône-Alpes",
-                  "es": "Auvernia-Ródano-Alpes",
-                  "fr": "Auvergne-Rhône-Alpes",
-                  "ja": "オーヴェルニュ＝ローヌ＝アルプ地域圏",
-                  "pt-BR": "Auvérnia-Ródano-Alpes",
-                  "ru": "Овернь — Рона — Альпы"
-                }
-              },
-              {
-                "geoname_id": 2987410,
-                "iso_code": "69",
-                "names": {
-                  "de": "Rhône",
-                  "en": "Rhône",
-                  "es": "Ródano",
-                  "fr": "Rhône",
-                  "ja": "ローヌ県",
-                  "pt-BR": "Ródano",
-                  "ru": "Рона",
-                  "zh-CN": "罗讷省"
-                }
-              }
-            ]
+            }
           }
         }
       ]
@@ -5422,7 +5365,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 31 Mar 2024 01:14:07",
+      "@generated": "Sun, 7 Apr 2024 01:17:13",
       "site": [
         {
           "@name": "https://beta.gouv.fr",
@@ -7099,7 +7042,7 @@
       {
         "requestedUrl": "https://beta.gouv.fr/",
         "finalUrl": "https://beta.gouv.fr/",
-        "fetchTime": "2024-03-31T01:14:22.207Z",
+        "fetchTime": "2024-04-07T01:17:28.411Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -7162,53 +7105,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 1895,
+            "numericValue": 1868,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1807,
-                  "firstMeaningfulPaint": 1807,
-                  "largestContentfulPaint": 2107,
-                  "interactive": 1895,
-                  "speedIndex": 2501,
-                  "totalBlockingTime": 33,
-                  "maxPotentialFID": 115,
-                  "cumulativeLayoutShift": 0.0035968424479166663,
-                  "cumulativeLayoutShiftMainFrame": 0.0035968424479166663,
-                  "totalCumulativeLayoutShift": 0.0035968424479166663,
+                  "firstContentfulPaint": 1803,
+                  "firstMeaningfulPaint": 1803,
+                  "largestContentfulPaint": 2103,
+                  "interactive": 1868,
+                  "speedIndex": 3010,
+                  "totalBlockingTime": 36,
+                  "maxPotentialFID": 121,
+                  "cumulativeLayoutShift": 0.0030830078125,
+                  "cumulativeLayoutShiftMainFrame": 0.0030830078125,
+                  "totalCumulativeLayoutShift": 0.0030830078125,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 932962239,
+                  "observedTimeOriginTs": 1139293990,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 932962239,
-                  "observedFirstPaint": 925,
-                  "observedFirstPaintTs": 933887122,
-                  "observedFirstContentfulPaint": 925,
-                  "observedFirstContentfulPaintTs": 933887122,
-                  "observedFirstContentfulPaintAllFrames": 925,
-                  "observedFirstContentfulPaintAllFramesTs": 933887122,
-                  "observedFirstMeaningfulPaint": 925,
-                  "observedFirstMeaningfulPaintTs": 933887122,
-                  "observedLargestContentfulPaint": 925,
-                  "observedLargestContentfulPaintTs": 933887122,
-                  "observedLargestContentfulPaintAllFrames": 925,
-                  "observedLargestContentfulPaintAllFramesTs": 933887122,
-                  "observedTraceEnd": 3768,
-                  "observedTraceEndTs": 936729907,
-                  "observedLoad": 1459,
-                  "observedLoadTs": 934421003,
-                  "observedDomContentLoaded": 978,
-                  "observedDomContentLoadedTs": 933940415,
-                  "observedCumulativeLayoutShift": 0.0035968424479166663,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0035968424479166663,
-                  "observedTotalCumulativeLayoutShift": 0.0035968424479166663,
-                  "observedFirstVisualChange": 917,
-                  "observedFirstVisualChangeTs": 933879239,
-                  "observedLastVisualChange": 1533,
-                  "observedLastVisualChangeTs": 934495239,
-                  "observedSpeedIndex": 934,
-                  "observedSpeedIndexTs": 933895976
+                  "observedNavigationStartTs": 1139293990,
+                  "observedFirstPaint": 1472,
+                  "observedFirstPaintTs": 1140765907,
+                  "observedFirstContentfulPaint": 1472,
+                  "observedFirstContentfulPaintTs": 1140765907,
+                  "observedFirstContentfulPaintAllFrames": 1472,
+                  "observedFirstContentfulPaintAllFramesTs": 1140765907,
+                  "observedFirstMeaningfulPaint": 1472,
+                  "observedFirstMeaningfulPaintTs": 1140765907,
+                  "observedLargestContentfulPaint": 1472,
+                  "observedLargestContentfulPaintTs": 1140765907,
+                  "observedLargestContentfulPaintAllFrames": 1472,
+                  "observedLargestContentfulPaintAllFramesTs": 1140765907,
+                  "observedTraceEnd": 4534,
+                  "observedTraceEndTs": 1143827879,
+                  "observedLoad": 2225,
+                  "observedLoadTs": 1141519421,
+                  "observedDomContentLoaded": 1587,
+                  "observedDomContentLoadedTs": 1140880777,
+                  "observedCumulativeLayoutShift": 0.0030830078125,
+                  "observedCumulativeLayoutShiftMainFrame": 0.0030830078125,
+                  "observedTotalCumulativeLayoutShift": 0.0030830078125,
+                  "observedFirstVisualChange": 1477,
+                  "observedFirstVisualChangeTs": 1140770990,
+                  "observedLastVisualChange": 2093,
+                  "observedLastVisualChangeTs": 1141386990,
+                  "observedSpeedIndex": 1491,
+                  "observedSpeedIndexTs": 1140785200
                 },
                 {
                   "lcpInvalidated": false
@@ -7230,19 +7173,19 @@
                   "numScripts": 3,
                   "numStylesheets": 4,
                   "numFonts": 4,
-                  "numTasks": 951,
-                  "numTasksOver10ms": 3,
-                  "numTasksOver25ms": 2,
+                  "numTasks": 987,
+                  "numTasksOver10ms": 4,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 101.42999999999999,
-                  "throughput": 8084822.405913567,
-                  "maxRtt": 106.96100000000001,
-                  "maxServerLatency": 125.404,
-                  "totalByteWeight": 535814,
-                  "totalTaskTime": 233.91500000000036,
-                  "mainDocumentTransferSize": 8108
+                  "rtt": 150.17399999999998,
+                  "throughput": 6626022.718498236,
+                  "maxRtt": 155.08800000000008,
+                  "maxServerLatency": 145.35399999999981,
+                  "totalByteWeight": 536257,
+                  "totalTaskTime": 256.7249999999983,
+                  "mainDocumentTransferSize": 8155
                 }
               ]
             }
@@ -7265,7 +7208,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://beta.gouv.fr",
-        "size": 805.456,
+        "size": 806.115,
         "nodes": 339,
         "requests": 44,
         "grade": "B",
@@ -7273,14 +7216,14 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2024-03-31 01:02:34.758038",
+        "date": "2024-04-07 01:03:06.715933",
         "page_type": null
       }
     ],
     "sonarcloud": null,
     "dsfr": null,
     "summary": {
-      "404": 4,
+      "404": 3,
       "httpGrade": "C",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2024-06-17T07:29:00.000Z",
