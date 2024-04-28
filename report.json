@@ -2644,7 +2644,7 @@
     "summary": {
       "404": 8,
       "httpGrade": "A+",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2024-05-27T16:04:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "B",
