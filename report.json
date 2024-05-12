@@ -2472,7 +2472,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.25
+            "score": 0.8
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2653,8 +2653,8 @@
       "trackersCount": 0,
       "zapCount": 5,
       "zapGrade": "D",
-      "lighthouse_performance": 0.25,
-      "lighthouse_performanceGrade": "E",
+      "lighthouse_performance": 0.8,
+      "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.92,
@@ -7053,7 +7053,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 1
+            "score": 0.97
           },
           "accessibility": {
             "title": "Accessibility",
@@ -7234,7 +7234,7 @@
       "trackersCount": 0,
       "zapCount": 8,
       "zapGrade": "D",
-      "lighthouse_performance": 1,
+      "lighthouse_performance": 0.97,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.92,
       "lighthouse_accessibilityGrade": "A",
